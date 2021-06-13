@@ -18,10 +18,10 @@
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.MD.sevensummitsproject.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_profil"
+        android:name="com.MD.sevensummitsproject.ui.profile.ProfileFragment"
+        android:label="Profil"
+        tools:layout="@layout/fragment_profile" />
 
     <fragment
         android:id="@+id/map"
@@ -30,9 +30,9 @@
         tools:layout="@layout/activity_maps" />
 
     <fragment
-    android:id="@+id/gps"
-    android:name="com.MD.sevensummitsproject.ui.gps.BlankFragment"
-    android:label="GPS"
-    tools:layout="@layout/activity_main2" />
+        android:id="@+id/gps"
+        android:name="com.MD.sevensummitsproject.ui.gps.BlankFragment"
+        android:label="GPS"
+        tools:layout="@layout/activity_main2" />
 
 </navigation>
